@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-libraries/nuget/v3/index.json
+
+storage: none
+nuget Expecto
+nuget Microsoft.NET.Test.Sdk
+nuget YoloDev.Expecto.TestSdk
+nuget System.CommandLine 2.0.0-beta4.24324.3 beta4

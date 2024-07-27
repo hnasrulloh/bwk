@@ -1,0 +1,3 @@
+[*.{fs,fsx}]
+fsharp_newline_before_multiline_computation_expression = false
+fsharp_experimental_elmish = true
