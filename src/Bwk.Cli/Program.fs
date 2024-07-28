@@ -1,3 +1,3 @@
-﻿open Bwk
+open Bwk
 
 Say.hello "Carl"
