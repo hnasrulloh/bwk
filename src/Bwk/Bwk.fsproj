@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-   <IsTrimmable>true</IsTrimmable>
+    <IsTrimmable>true</IsTrimmable>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Text.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
